@@ -1,0 +1,176 @@
+body{
+  background-color: black;
+}
+.parent{
+  position: relative;
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  margin: auto;
+  color: white;
+  padding: 20px;
+}
+.child1{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 100px;
+  top: 50px;
+  background-color: blue;
+  z-index: 1;
+}
+
+.child2{
+  position: absolute;
+  top: 20px;
+  left: 160px;
+  width: 200px;
+  height: 150px;
+  background-color: purple;
+  z-index: 3;
+}
+
+.child3{
+  position: absolute;
+  left: 185px;
+  top: 90px;
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  z-index: 4;
+}
+
+.child4{
+  position: absolute;
+  /* left: 300px; */
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  z-index: 4;
+}
+.child5{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(0, 255, 72);
+  z-index: 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: black;
+}
+.container{
+  background-color: rgb(76, 76, 189);
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.container .child1{
+  background-color: yellow;
+  width: 97%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.child2{
+  background-color: red;
+  width: 46%;
+  height: 100px;
+  margin-bottom: 10px;
+  margin-right: 3%;
+}
+.child3{
+   background-color: white;
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap; 
+  margin-bottom: 10px;
+}
+.child3-1{
+  background-color: rgb(40, 35, 35);
+  width: 50%;
+  height: 50%;
+}
+.child3-2{
+  background-color: rgb(188, 9, 9);
+  width: 50%;
+  height: 50%;
+}
+.child3-3{
+  background-color: rgb(152, 44, 60);
+  width: 50%;
+  height: 50%;
+}
+.child3-4{
+  background-color: rgb(156, 161, 178);
+  width: 50%;
+  height: 50%;
+}
+.child4{
+  background-color: rgb(128, 0, 75);
+ width: 30.4%;
+ margin-top: 10px;
+ margin-right: 3%;
+}
+.child5{
+  background-color: rgb(60, 128, 0);
+ width: 30.4%;
+ height: 100px;
+ margin-top: 10px;
+ margin-right: 3%;
+}
+.child6{
+  background-color: rgb(128, 0, 117);
+ width: 30.4%;
+ height: 100px;
+ margin-top: 10px;
+}
+.child7{
+  background-color: rgb(177, 153, 175);
+ width: 22%;
+ height: 100px;
+ margin-top: 10px;
+ margin-right: 3%;
+}
+.child8{
+  background-color: rgb(165, 48, 65);
+ width: 22%;
+ height: 100px;
+ margin-top: 10px;
+ margin-right: 3%;
+}
+.child9{
+  background-color: rgb(84, 198, 31);
+ width: 22%;
+ height: 100px;
+ margin-top: 10px;
+ margin-right: 3%;
+}
+.child10{
+  background-color: rgb(58, 217, 231);
+ width: 22%;
+ height: 100px;
+ margin-top: 10px;
+} */
